@@ -42,5 +42,8 @@ public class Vector2D {
         m_y-= vector.getY();
         return this ;
     }
-
+    @Override
+    public String toString() {
+        return "(" +this.getX()+","+this.getY()+")";
+    }
 }
