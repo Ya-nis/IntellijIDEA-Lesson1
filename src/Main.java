@@ -10,5 +10,7 @@ public class Main {
         point2.subtract(point1);
         System.out.println("point2 "+point2.toString());
 
+        System.out.println("the distance between point1 and point2 is "+Utility.distance(point1,point2));
+        System.out.println("The distance between (2,5) and (-1,3) is "+Utility.distance(2,5,-1,3));
     }
 }
